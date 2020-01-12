@@ -1,30 +1,1279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
- <meta charset="utf-8">
- <title>Вакансии</title>
-</head>
-<body>
-<table>
- <tr>
-  <th>Title</th>
-  <th>City</th>
-  <th>Company Name</th>
-  <th>Salary</th>
- </tr>
- <tr class="vacancy">
-  <td class="title"><a href="http://javarush.ru">Junior Java Developer</a></td>
-  <td class="city">Entire World</td>
-  <td class="companyName">JavaRush</td>
-  <td class="salary">1 million</td>
- </tr>
-
- <tr class="vacancy template" style="display: none">
-  <td class="title"><a href="url"></a></td>
-  <td class="city"></td>
-  <td class="companyName"></td>
-  <td class="salary"></td>
- </tr>
-</table>
-</body>
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Вакансии</title> 
+ </head> 
+ <body> 
+  <table> 
+   <tbody>
+    <tr> 
+     <th>Title</th> 
+     <th>City</th> 
+     <th>Company Name</th> 
+     <th>Salary</th> 
+    </tr>  
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/35157486?query=java%20Odessa">Android Developer</a></td> 
+     <td class="city">Астрахань</td> 
+     <td class="companyName">Агент Плюс</td> 
+     <td class="salary">от 60 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/34902984?query=java%20Odessa">Android Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Агент Плюс</td> 
+     <td class="salary">от 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/35029856?query=java%20Odessa">Java Developer</a></td> 
+     <td class="city">Одесса</td> 
+     <td class="companyName">Andersen</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/35053780?query=java%20Odessa">Javascript (ES6) Developer</a></td> 
+     <td class="city">Одесса</td> 
+     <td class="companyName">ИП Devsteam.mobi</td> 
+     <td class="salary">11 200-28 000 грн.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/35000224?query=java%20Odessa">Data Engineer</a></td> 
+     <td class="city">Одесса</td> 
+     <td class="companyName">ООО Плейджендари Ру</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/35013878?query=java%20Odessa">Software Developer (.NET)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Luxoft</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/34833472?query=java%20Odessa">Middle Java Engineer</a></td> 
+     <td class="city">Одесса</td> 
+     <td class="companyName">Luxoft</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://hh.ua/vacancy/34833340?query=java%20Odessa">Configuration Engineer</a></td> 
+     <td class="city">Одесса</td> 
+     <td class="companyName">Luxoft</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053144">Java-разработчик</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053650">Java разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">СберЛогистика</td> 
+     <td class="salary">От 170 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055637">Разработчик Java</a></td> 
+     <td class="city">Новосибирск</td> 
+     <td class="companyName">Финансовые Информационные Системы</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055940">Java-разработчик</a></td> 
+     <td class="city">Ростов-на-Дону</td> 
+     <td class="companyName">CSSSR</td> 
+     <td class="salary">От 70 000 до 180 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000051352">Java-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Litota Labs</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054159">Java разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">МТС</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055689">Java-программист</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">SimbirSoft</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055788">Java-разработчик</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">TecForce</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000025281">Senior Java Developer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Magenta Technology</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056015">JAVA-разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Unitarius</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055569">Java Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">OFD.ru</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054665">Middle Java Developer</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">NEOLAB</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054668">Java-лабарь от Бога.</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">NEOLAB</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055742">Java developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЛАНИТ</td> 
+     <td class="salary">От 130 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055652">Senior Java Developer</a></td> 
+     <td class="city">Воронеж</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055970">Java developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">XCritical Software</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043486">Java разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">SimpleTexting</td> 
+     <td class="salary">От 3 500 до 5 000 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055653">Java developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">XCritical Software</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000032800">Разработчик Java</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">QIWI</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055870">Backend разработчик (Java)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Корона Авто</td> 
+     <td class="salary">От 150 000 до 170 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053146">Senior Java Developer (AI/NLP систем)</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055779">Java-разработчик (Camunda)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЛАНИТ</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055641">Middle Java Developer</a></td> 
+     <td class="city">Ростов-на-Дону</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055679">Программист JAVA</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">TOКИО-CITY</td> 
+     <td class="salary">От 130 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055832">Team Lead Java developer</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">ИЦ «Ай-Теко»</td> 
+     <td class="salary">До 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053144">Java-разработчик</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053650">Java разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">СберЛогистика</td> 
+     <td class="salary">От 170 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055637">Разработчик Java</a></td> 
+     <td class="city">Новосибирск</td> 
+     <td class="companyName">Финансовые Информационные Системы</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055940">Java-разработчик</a></td> 
+     <td class="city">Ростов-на-Дону</td> 
+     <td class="companyName">CSSSR</td> 
+     <td class="salary">От 70 000 до 180 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000051352">Java-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Litota Labs</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054159">Java разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">МТС</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055689">Java-программист</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">SimbirSoft</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055788">Java-разработчик</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">TecForce</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000025281">Senior Java Developer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Magenta Technology</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056015">JAVA-разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Unitarius</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055569">Java Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">OFD.ru</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054665">Middle Java Developer</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">NEOLAB</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054668">Java-лабарь от Бога.</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">NEOLAB</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055742">Java developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЛАНИТ</td> 
+     <td class="salary">От 130 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055652">Senior Java Developer</a></td> 
+     <td class="city">Воронеж</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055970">Java developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">XCritical Software</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043486">Java разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">SimpleTexting</td> 
+     <td class="salary">От 3 500 до 5 000 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055653">Java developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">XCritical Software</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000032800">Разработчик Java</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">QIWI</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055870">Backend разработчик (Java)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Корона Авто</td> 
+     <td class="salary">От 150 000 до 170 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053146">Senior Java Developer (AI/NLP систем)</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055779">Java-разработчик (Camunda)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЛАНИТ</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055641">Middle Java Developer</a></td> 
+     <td class="city">Ростов-на-Дону</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055679">Программист JAVA</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">TOКИО-CITY</td> 
+     <td class="salary">От 130 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055832">Team Lead Java developer</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">ИЦ «Ай-Теко»</td> 
+     <td class="salary">До 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055450">Java backend developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">PeoplePass</td> 
+     <td class="salary">От 150 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055710">Java разработчик (внешние проекты)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Litota Labs</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055651">Middle Java developer</a></td> 
+     <td class="city">Воронеж</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055573">Middle/Senior Java разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Usetech</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055452">FullStack (Java + Vue.js)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">PeoplePass</td> 
+     <td class="salary">От 150 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000049925">Team Lead Java</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">RBS Payments</td> 
+     <td class="salary">От 230 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055665">Senior Java разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Usetech</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053638">Разработчик Java</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">Альфа Банк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055548">Full-stack Java-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">IBS</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000046979">Java Developer (e-commerce)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">RBS Payments</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055599">Разработчик Java в Отдел интеграций</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">DPD в России</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055814">Java Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ООО "Актеон"</td> 
+     <td class="salary">От 170 000 до 190 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054669">Senior Java Developer</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">NEOLAB</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055645">Java-разработчик в Метрику</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Яндекс</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000052263">Java developer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Robusta</td> 
+     <td class="salary">До 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055988">Team Lead Java</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЛАНИТ</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055654">Full Stack developer (Java or Kotlin)</a></td> 
+     <td class="city">Казань</td> 
+     <td class="companyName">MERA</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055782">Full-stack разработчик (Java + Angular / React)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Tellsy</td> 
+     <td class="salary">От 100 000 до 120 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055618">Senior Java Developer (Custom Solutions)</a></td> 
+     <td class="city">Саратов</td> 
+     <td class="companyName">Haulmont</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000051154">Разработчик Java</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ИнЭкс</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055457">Android Developer (Kotlin/Java)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">PeoplePass</td> 
+     <td class="salary">От 100 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043199">Senior Java Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">MFMS</td> 
+     <td class="salary">От 150 000 до 300 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055143">Senior Java Developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">ЦРТ</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054940">Java‑разработчик в проект «Восток»</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">СКБ Контур</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055815">Senior Java Developer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">ООО "Актеон"</td> 
+     <td class="salary">От 200 000 до 230 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055579">Team Lead / Senior Java-разработчик</a></td> 
+     <td class="city">Таллин</td> 
+     <td class="companyName">iChar</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000032068">QA Automation Engineer (backend, Java)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">QIWI</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055601">Full Stack Java+JS Developer (remote)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Nitka Technologies, Inc.</td> 
+     <td class="salary">От 2 800 до 3 200 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054715">Senior Full Stack Java Developer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Nitka Technologies, Inc.</td> 
+     <td class="salary">От 2 800 до 3 200 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055909">Senior Full Stack Java разработчик бизнес-приложений (Google App Engine)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Synergy</td> 
+     <td class="salary">До 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055623">Technical Lead (Custom Solutions)</a></td> 
+     <td class="city">Тольятти</td> 
+     <td class="companyName">Haulmont</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055776">Java Script разработчик (удаленно)</a></td> 
+     <td class="city">Ярославль</td> 
+     <td class="companyName">С.NET</td> 
+     <td class="salary">От 80 000 до 120 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056003">Senior/Lead Full-Stack разработчик (JS)</a></td> 
+     <td class="city">Челябинск</td> 
+     <td class="companyName">Exadel</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055881">Lead Mobile iOS/Android (BigFish, remote)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">AKVELON</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055872">Android разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Tinkoff.ru</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055787">Product Marketing Manager (IntelliJ IDEA)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">JetBrains</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054670">Senior DevOps Engineer</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">NEOLAB</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055783">Software Engineer (JVM Runtime)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">JetBrains</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055671">Специалист по автоматизированному тестированию</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Usetech</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055666">Data Engineer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Playgendary</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055793">Software Engineer (JVM Runtime)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">JetBrains</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055479">Middle/Senior Backend Engineer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Revolut</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055811">Стажер-разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЭКОПСИ Консалтинг</td> 
+     <td class="salary">До 40 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055792">Support Engineer (IntelliJ IDEA)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">JetBrains</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055975">Разработчик мобильных приложений (mobile developer)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Яндекс</td> 
+     <td class="salary">От 100 000 до 300 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054705">Инженер сопровождения</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЛАНИТ</td> 
+     <td class="salary">До 120 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055082">Senior/Lead Full-Stack разработчик (JS)</a></td> 
+     <td class="city">Алматы</td> 
+     <td class="companyName">Exadel</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054459">Android Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Агент Плюс</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055619">Technical Lead ТЕЗИС</a></td> 
+     <td class="city">Саратов</td> 
+     <td class="companyName">Haulmont</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000051427">Back-end разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">FINCH</td> 
+     <td class="salary">До 180 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055658">Android developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Dodo Pizza</td> 
+     <td class="salary">До 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055943">Android разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Mygento eCommerce Solutions</td> 
+     <td class="salary">От 100 000 до 140 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056036">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Саратов</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056034">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Казань</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056040">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Краснодар</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054223">QA Automation Engineer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">inDriver</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055535">Инженер по автоматизации тестирования (команда разработки iOS)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Spice IT Recruitment</td> 
+     <td class="salary">До 160 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055519">Software Engineer / Tech Lead in Japan (Токио, Япония, Релокация)</a></td> 
+     <td class="city">Токио</td> 
+     <td class="companyName">MPDigital</td> 
+     <td class="salary">От 7 000 до 15 000 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054229">Веб-разработчик</a></td> 
+     <td class="city">Донецк</td> 
+     <td class="companyName">Rocket Science</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056042">Android-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">retailCRM</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055789">Software developer (IDE product teams)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">JetBrains</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056037">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054231">Fullstack разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Яндекс</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000051533">Android разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">АКМЭ сервис</td> 
+     <td class="salary">От 90 000 до 110 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055836">Android developer</a></td> 
+     <td class="city">Пермь</td> 
+     <td class="companyName">Где мои дети</td> 
+     <td class="salary">От 150 000 до 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054892">Android-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Litota Labs</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055470">Старший системный администратор</a></td> 
+     <td class="city">Ижевск</td> 
+     <td class="companyName">KRIT</td> 
+     <td class="salary">От 70 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056033">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Нижний Новгород</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056035">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Иваново</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056038">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Волгоград</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000056039">Руководитель разработки / Teamlead</a></td> 
+     <td class="city">Астрахань</td> 
+     <td class="companyName">1С-Старт</td> 
+     <td class="salary">От 200 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055745">Программист разработчик мобильных приложений для Android</a></td> 
+     <td class="city">Рязань</td> 
+     <td class="companyName">PushOk Software</td> 
+     <td class="salary">От 70 000 до 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043292">Android Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">MFMS</td> 
+     <td class="salary">От 150 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000052609">Разработчик бэкенда в Буткемп</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Яндекс</td> 
+     <td class="salary">От 100 000 до 300 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055678">Android разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Oblako Studio</td> 
+     <td class="salary">От 120 000 до 240 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055685">Senior Backend Engineer (move to US/Europe or remote work)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Reddit</td> 
+     <td class="salary">От 200 000 до 1 000 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055754">Project Delivery Manager</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ООО "Актеон"</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055672">QA Automation Engineer (Collaboration Tool)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Dino Systems (DINS)</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043669">Data scientist</a></td> 
+     <td class="city">Краснодар</td> 
+     <td class="companyName">PLARIUM</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043826">Data Engineer</a></td> 
+     <td class="city">Краснодар</td> 
+     <td class="companyName">PLARIUM</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043016">Тестировщик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ИнЭкс</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055984">Android Developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">aviasales.ru</td> 
+     <td class="salary">От 2 000 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000052753">Spring framework back-end developer</a></td> 
+     <td class="city">Йошкар-Ола</td> 
+     <td class="companyName">GXB Development</td> 
+     <td class="salary">От 80 000 до 160 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055958">Backend-разработчик / Веб-разработчик</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">Arlekino Event</td> 
+     <td class="salary">От 80 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055744">Программист-разработчик Web приложений</a></td> 
+     <td class="city">Рязань</td> 
+     <td class="companyName">PushOk Software</td> 
+     <td class="salary">От 70 000 до 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000050089">Системный администратор Linux/DevOps</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Онлайн-кинотеатр ivi</td> 
+     <td class="salary">До 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054484">Android Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">inDriver</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055941">Technical Lead</a></td> 
+     <td class="city">Алматы</td> 
+     <td class="companyName">Nommi (Power WiFi Inc)</td> 
+     <td class="salary">От 1 300 до 2 500 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055844">Спикер/эксперт по Android-разработке на Kotlin</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">SkillBranch</td> 
+     <td class="salary">От 140 000 до 220 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055449">Senior Android Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Revolut</td> 
+     <td class="salary">От 230 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055526">DevOps-инженер</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Стерлинг</td> 
+     <td class="salary">От 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055724">DevOps инженер</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Платформа НТИ</td> 
+     <td class="salary">От 160 000 до 190 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000048320">Android разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Chudo</td> 
+     <td class="salary">От 180 000 до 250 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054896">.NET/C#-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Litota Labs</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055446">Программист-разработчик для IBM Notes (Lotus)</a></td> 
+     <td class="city">Казань</td> 
+     <td class="companyName">ГАУЗ «МКДЦ»</td> 
+     <td class="salary">От 70 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055780">Fullstack разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Gallery</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000043987">Разработчик iOS</a></td> 
+     <td class="city">Чебоксары</td> 
+     <td class="companyName">Контент информ</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055638">Ведущий аналитик-проектировщик</a></td> 
+     <td class="city">Новосибирск</td> 
+     <td class="companyName">Финансовые Информационные Системы</td> 
+     <td class="salary">До 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055849">Ассистент курса - Data Engineer</a></td> 
+     <td class="city">Жуковский</td> 
+     <td class="companyName">ФАЛТ МФТИ</td> 
+     <td class="salary">От 30 000 до 40 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055203">Full-stack developer</a></td> 
+     <td class="city">Ларнака</td> 
+     <td class="companyName">iTech Capital</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053263">React Native Developer в команду разработки MuseScore</a></td> 
+     <td class="city">Нур-Султан (Астана)</td> 
+     <td class="companyName">WSM Group</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054237">Flutter / Dart Developer (Уфа)</a></td> 
+     <td class="city">Уфа</td> 
+     <td class="companyName">ТagesJump</td> 
+     <td class="salary">До 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055472">JavaScript-разработчик</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">NewTech</td> 
+     <td class="salary">От 70 000 до 120 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054993">Flutter / Dart Developer (Краснодар)</a></td> 
+     <td class="city">Краснодар</td> 
+     <td class="companyName">ТagesJump</td> 
+     <td class="salary">До 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055644">Flutter / Dart Developer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Real Time Technologies</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055600">Android разработчик</a></td> 
+     <td class="city">Чебоксары</td> 
+     <td class="companyName">Контент информ</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055453">Front End Developer (Vue.js)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">PeoplePass</td> 
+     <td class="salary">От 100 000 до 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054820">Senior Backend developer .Net Core + knowledge of JS</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">TrueDEX</td> 
+     <td class="salary">От 190 000 до 280 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055839">Android Developer (Buyer Experience)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">OZON.ru</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053994">Senior Backend Python Engineer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Spark Equation</td> 
+     <td class="salary">От 180 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055977">Разработчик машинного обучения (ML-developer)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Яндекс</td> 
+     <td class="salary">От 100 000 до 300 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055848">Angular Developer</a></td> 
+     <td class="city">Пенза</td> 
+     <td class="companyName">Andersen</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054062">Программист 1С + Битрикс</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">HARTUNG</td> 
+     <td class="salary">До 180 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055477">PHP-разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">АКМЭ сервис</td> 
+     <td class="salary">От 100 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000032485">Разработчик JavaScript (server-side)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">QIWI</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000050072">QA engineer (mobile)</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">FINCH</td> 
+     <td class="salary">От 70 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055643">Системный аналитик</a></td> 
+     <td class="city">Ростов-на-Дону</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000027966">Бэкенд-разработчик (Ruby on Rails)</a></td> 
+     <td class="city">Ульяновск</td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055760">Специалист по тестированию</a></td> 
+     <td class="city">Казань</td> 
+     <td class="companyName">СКБ Контур</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000034150">Бэкенд-разработчик (Ruby on Rails)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary">От 110 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055791">Software Developer (.NET Tools)</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">JetBrains</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055516">PHP-программист</a></td> 
+     <td class="city">Королев</td> 
+     <td class="companyName">IMMO</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055693">FullStack Developer PHP</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">New Technologies</td> 
+     <td class="salary">От 80 000 до 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055738">Yii2 — senior бекенд разработчик</a></td> 
+     <td class="city">Омск</td> 
+     <td class="companyName">11Palms</td> 
+     <td class="salary">От 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000052970">С++ раработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">МТС</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053614">Бэкенд-разработчик</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000028903">Front-end разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Idea Platform</td> 
+     <td class="salary">От 70 000 до 150 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055608">Системный аналитик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Сбербанк</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055736">IT Recruiter</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Usetech</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055804">Developer iOS (Разработка решения Service Desk)</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">Naumen</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055501">SharePoint Support Specialist</a></td> 
+     <td class="city">Нижний Новгород</td> 
+     <td class="companyName">KPMG</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000052391">QA Automation Engineer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">aviasales.ru</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055662">Разработчик Ruby on Rails</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">СТМ</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055481">QA Engineer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Emlid</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055859">Senior Python 3.x Developer</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Лаборатория Касперского</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000046350">DevOps Specialist (remote work)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">Petrosoft LLC</td> 
+     <td class="salary">От 2 500 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053612">Бэкенд-разработчик</a></td> 
+     <td class="city">Новосибирск</td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053610">Бэкенд-разработчик</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053611">Бэкенд-разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055876">Android Engineer</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">UULA</td> 
+     <td class="salary">От 2 000 до 3 000 usd.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053613">Бэкенд-разработчик</a></td> 
+     <td class="city">Томск</td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000053557">Бэкенд-разработчик</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">FunBox</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055624">Project Manager (ТЕЗИС)</a></td> 
+     <td class="city">Самара</td> 
+     <td class="companyName">Haulmont</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055553">QA Automation iOS</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Онлайн-кинотеатр ivi</td> 
+     <td class="salary">От 140 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055704">Linux-администратор / DevOps-инженер</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">ЦИФ МГУ им. М.В. Ломоносова</td> 
+     <td class="salary">От 100 000 до 130 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055655">QA Automation Engineer</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">Naumen</td> 
+     <td class="salary">До 120 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000054482">Инженер DevOps в продуктовую команду</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">СКБ Контур</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055441">Ведущий тестировщик / QA automation engineer</a></td> 
+     <td class="city">Санкт-Петербург</td> 
+     <td class="companyName">Новые Программные Системы</td> 
+     <td class="salary">От 100 000 до 140 000 руб.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055278">Lead/Senior Automation QA (JS)</a></td> 
+     <td class="city">Екатеринбург</td> 
+     <td class="companyName">Exadel</td> 
+     <td class="salary"></td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000055896">R&amp;D Backend Developer (remote friendly)</a></td> 
+     <td class="city"></td> 
+     <td class="companyName">INDG</td> 
+     <td class="salary">От 2 000 до 3 000 eur.</td> 
+    </tr>
+    <tr class="vacancy"> 
+     <td class="title"><a href="https://moikrug.ru/vacancies/1000044926">Ведущий Android-разработчик</a></td> 
+     <td class="city">Москва</td> 
+     <td class="companyName">Payment Systems</td> 
+     <td class="salary">От 200 000 руб.</td> 
+    </tr>
+    <tr class="vacancy template" style="display: none"> 
+     <td class="title"><a href="url"></a></td> 
+     <td class="city"></td> 
+     <td class="companyName"></td> 
+     <td class="salary"></td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
 </html>
